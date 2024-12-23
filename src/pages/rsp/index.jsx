@@ -6,11 +6,12 @@ export default class Index extends React.Component {
       <div
         style={{
           display: "flex",
-          flexDirection: "column",
           alignItems: "center",
+          flexDirection: "column",
         }}
       >
-        <h1>ジャンケンに挑戦しよう！</h1>
+        <h1>じゃんけんページ</h1>
+        <h1>じゃんけんを終了する</h1>
       </div>
     );
   }
